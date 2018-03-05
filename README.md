@@ -1,24 +1,17 @@
-# README
+# EJ Senhas
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## O que é?
 
-Things you may want to cover:
+É um projeto que tem como intenção compor algo maior.
+Tem como interesse inicial atender as emrpesas juniores que  
+precisam compartilhar senhas entre pessoas com alta rotatividade
+porém ainda precisam manter a segurança.
 
-* Ruby version
+## Detalhes
+* Rails v 5.1.5  
+* Ruby v 2.4.0
 
-* System dependencies
+## Como usar?
 
-* Configuration
+#####TODO
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
