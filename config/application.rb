@@ -12,12 +12,11 @@ require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
 
-module Puff
+module Ejsenhas
   class Application < Rails::Application
     config.load_defaults 5.1
     config.logger = Logger.new(STDOUT)
-    config.enable_dependency_loading = true
-    config.autoload_paths << Rails.root.join('lib')
+    config.autoload_paths << "#{Rails.root}/lib"
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
